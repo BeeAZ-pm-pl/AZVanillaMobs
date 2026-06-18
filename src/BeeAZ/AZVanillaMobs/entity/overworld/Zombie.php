@@ -52,7 +52,6 @@ class Zombie extends Monster {
 
         
         $drowned->getArmorInventory()->setContents($this->getArmorInventory()->getContents());
-        $drowned->getInventory()->setContents($this->getInventory()->getContents());
 
         $this->close();
         $drowned->spawnToAll();
